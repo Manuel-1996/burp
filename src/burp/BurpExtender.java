@@ -11,6 +11,7 @@ public class BurpExtender implements IBurpExtender
         // set our extension name
         callbacks.setExtensionName("Burp Sample Extension Java");
         String fileName = callbacks.getExtensionFilename();
-        callbacks.printOutput(fileName);
+        String ciao = fileName   + "ciao" ;    
+        callbacks.printOutput(ciao);
     }
 }
